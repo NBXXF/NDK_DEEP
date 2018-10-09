@@ -17,3 +17,4 @@ BUILD FAILED in 1s
   -bootclasspath <path>    从中加载引导类的路径
 <classes> 是使用其全限定名称指定的
 (例如, java.lang.Object)。
+## cmakelist配置
