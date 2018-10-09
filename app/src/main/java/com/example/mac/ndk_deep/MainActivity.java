@@ -20,7 +20,9 @@ public class MainActivity extends AppCompatActivity {
 
         // Example of a call to a native method
         TextView tv = (TextView) findViewById(R.id.sample_text);
-        tv.setText(stringFromJNI() + NDKUtils.getName());
+        tv.setText(stringFromJNI() + "\n"
+                + NDKUtils.getName() + "\n"
+                + NDKUtils.getDesc("张三", 11));
     }
 
     /**

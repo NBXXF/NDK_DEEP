@@ -7,4 +7,6 @@ public class NDKUtils {
     }
 
     public static native String getName();
+
+    public static native String getDesc(String name,int age);
 }
