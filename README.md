@@ -18,3 +18,8 @@ BUILD FAILED in 1s
 <classes> 是使用其全限定名称指定的
 (例如, java.lang.Object)。
 ## cmakelist配置
+
+## 生成方式
+as工具栏->build->rebuild project
+## .so文件目录
+build->intermediates->cmake
