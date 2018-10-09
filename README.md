@@ -23,3 +23,10 @@ BUILD FAILED in 1s
 as工具栏->build->rebuild project
 ## .so文件目录
 build->intermediates->cmake
+## 日志的使用方式
+1. 增加 #include <android/log.h>
+2. 增加  #define LOG_TAG  "C_TAG"
+3. 增加  #define LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
+
+调用方式
+LOGD("==============hello.length=%d",hello.length());
